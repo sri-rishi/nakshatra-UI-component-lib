@@ -1,7 +1,5 @@
 .navbar {
-    display: flex;
-    align-items:center;
-    box-shadow: 3px 3px 4px rgb(161, 148, 148);
+    box-shadow: 3px 3px 4px var(--shadow-color);
     padding: 10px 20px;
     font-size: 1.3rem; 
     font-weight: 500;
@@ -13,19 +11,14 @@
 
 .title {
     font-size: 2rem;
-    margin-block-start: 0;
-    margin-block-end: 0; 
     font-weight: 400;
-    text-shadow: 3px 3px 4px rgb(161, 148, 148);
+    text-shadow: 3px 3px 4px var(--shadow-color);
 }
 
 .sub-title {
-    color:rgb(7, 172, 248)
+    color: var(--primary-color);
 }
 
 .nav-items-box {
     width: 12rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
 }
