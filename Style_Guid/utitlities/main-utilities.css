@@ -1,6 +1,6 @@
 .main-section {
     grid-area: main;
-    padding: 2rem 4rem 0;
+    padding: 2rem 4rem 1rem;
     gap: 2rem;
 }
 .heading {
@@ -17,6 +17,10 @@
 
 .sub-heading {
     font-size: 2rem;
+}
+ 
+.component-section {
+    gap: inherit;
 }
 
 .component-info {
