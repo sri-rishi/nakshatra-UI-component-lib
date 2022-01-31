@@ -9,7 +9,7 @@
     <title>Alerts</title>
 </head>
 <body>
-    <div class="docs-area-template">
+    <div class="docs-grid-template">
         <nav class="navbar flex-row align-center">
             <div class="hamburger display-none">
                 <i class="fas fa-bars"></i>
@@ -21,41 +21,57 @@
             </div>
         </nav>
 
-        <aside class="aside-bar">
+        <aside class="aside-bar sidebar">
             <div class="display-none">
                 <a href="">Home</a>
                 <a href="">Docs</a>
             </div>
-            <div>Getting Started</div>
-            <div>Usage</div>
+            <div class="sidebar-label">Getting Started</div>
+            <div class="sidebar-items">Usage</div>
 
-            <div>Components</div>
+            <div class="sidebar-label">Components</div>
             <ul>
-                <li>
+                <li class="sidebar-items">
                     <a href="alert.html">Alert</a>
                 </li>
-                <li>
+                <li class="sidebar-items">
                     <a href="">Avatar</a>
                 </li>
-                <li>
+                <li class="sidebar-items">
                     <a href="">Badge</a>
                 </li>
-                <li>
+                <li class="sidebar-items">
                     <a href="">Button</a>
                 </li>
-                <li>
+                <li class="sidebar-items">
                     <a href="">Card</a>
                 </li>
-                <li>
+                <li class="sidebar-items">
                     <a href="">Image</a>
                 </li>
-                <li>
+                <li class="sidebar-items">
                     <a href="">Input</a>
                 </li>
             </ul>
         </aside>
         <main class="main-section">
-            <h1 class="heading">Alerts</h1>
+            <section class='head-section'>
+                <h1 class="headings main-heading">Alerts</h1>
+                <p class="heading-about"> 
+                    Alerts are used to attract user's attention for important information without interrupting the user's flow.
+                </p>
+            </section>
+            <section class="component-section">
+               <h2 class="heading sub-heading"> Example of Alert Bar without close button</h2>
+               <p class="component-info">
+                    Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.
+                    To use this alert just use class name alert-box and also add class according to alert type- 
+                    <span class="component-type">alert-primary</span>, <span class="component-type">alert-secondary</span>, <span class="component-type">alert-danger</span>, <span class="component-type">alert-success</span>, <span class="component-type">alert-warning</span>. (e.g.<span class="component-type">class="alert-box alert-primary"</span>).
+                    You can copy html part from below code snippet.
+               </p>
+
+               
+            </section>
         </main>
     </div>
 </body>
