@@ -9,6 +9,10 @@
 
 :root {
     --primary-color: rgb(7, 172, 248);
+    --secondary-color: rgb(32, 30, 30);
+    --normal-text-color: rgb(80, 76, 76);
+    --hover-text-color: rgb(49, 48, 48);
+    --hover-background-color: rgba(44, 167, 224, 0.315);
     --shadow-color: rgb(161, 148, 148);
 }
 
@@ -22,3 +26,6 @@ h1 {
     margin-block-end: 0; 
 }
 
+ul {
+    list-style-type: none;
+}
