@@ -1,0 +1,42 @@
+.component-display-box {
+    border: 1px solid var(--shadow-color);
+    border-radius: 4px;
+    padding: 2rem;
+}
+
+.alert-box {
+    width: 100%;
+    padding: 1rem 3rem 1rem 1rem;
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    border-radius: 4px;;
+}
+
+.m-right-1{
+    margin-right: 10px;
+}
+
+.alert-primary {
+    background: #7FD2E6;
+    color: #29438b;
+}
+
+.alert-secondary {
+    background: #eaeaec;
+    color: var(--shadow-color);
+}
+
+.alert-success {
+    background: #84f1c9;
+    color: #1b7052;
+}
+
+.alert-danger {
+    background: #fcc5c5;
+    color: #dc3545;
+}
+
+.alert-warning {
+    background: #ffe7c5;
+    color: #ff9204;
+}
