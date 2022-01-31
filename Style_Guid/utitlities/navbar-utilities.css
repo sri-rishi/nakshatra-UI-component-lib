@@ -1,0 +1,23 @@
+.navbar {
+    grid-area: navbar;
+    box-shadow: 3px 3px 4px var(--shadow-color);
+    padding: 10px 20px;
+    font-size: 1.3rem; 
+    font-weight: 500;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 400;
+    text-shadow: 3px 3px 4px var(--shadow-color);
+}
+
+.sub-title {
+    color: var(--primary-color);
+}
+
+.nav-items-box {
+    color: var(--secondary-color);
+    width: 12rem;
+}
+

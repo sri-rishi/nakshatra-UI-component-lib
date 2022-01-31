@@ -1,0 +1,25 @@
+.aside-bar {
+    grid-area: aside;
+}
+
+.sidebar {
+    font-size: 1.2rem;
+    gap: 1rem;
+    padding: 3rem 0 0 4rem;
+}
+
+.sidebar-label {
+    font-size: 1.3rem;
+    color: var(--secondary-color);
+}
+
+.sidebar-items {
+    color: var(--normal-text-color);
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.sidebar-items:hover {
+    color: var(--hover-text-color);
+    background: var(--hover-background-color);
+}
