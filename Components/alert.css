@@ -1,0 +1,42 @@
+.component-display-box {
+    border: 1px solid var(--shadow-color);
+    border-radius: 4px;
+    padding: 2rem;
+}
+
+.alert-box {
+    width: 100%;
+    padding: 1rem 3rem 1rem 1rem;
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    border-radius: 4px;;
+}
+
+.m-right-1{
+    margin-right: 10px;
+}
+
+.alert-primary {
+    background: var(--alert-primary-bg-color);
+    color: var(--alert-primary-color);
+}
+
+.alert-secondary {
+    background: var(--alert-secondary-bg-color);
+    color: var(--shadow-color);
+}
+
+.alert-success {
+    background: var(--alert-success-bg-color);
+    color: var(--alert-success-color);
+}
+
+.alert-danger {
+    background: var(--alert-danger-bg-color);
+    color: var(--alert-danger-color);
+}
+
+.alert-warning {
+    background: var(--alert-warning-bg-color);
+    color: var(--alert-warning-color);
+}
