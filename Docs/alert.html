@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../index.css">
+    <title>Alerts</title>
+</head>
+<body>
+    <div class="docs-grid-template">
+        <nav class="navbar flex-row align-center font-weight-5">
+            <div class="hamburger display-none">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="title font-weight-4">nakshatra <span class="sub-title">UI</span></div>
+            <div class="nav-items-box flex-row align-center justify-evenly">
+                <a href="" class="nav-items">Home</a>
+                <a href="" class="nav-items">Docs</a>
+            </div>
+        </nav>
+
+        <aside class="aside-bar sidebar flex-column position-sticky font-weight-5">
+            <div class="display-none">
+                <a href="">Home</a>
+                <a href="">Docs</a>
+            </div>
+            <div class="sidebar-label font-weight-6">Getting Started</div>
+            <div class="sidebar-items">Usage</div>
+
+            <div class="sidebar-label font-weight-6">Components</div>
+            <ul>
+                <li class="sidebar-items">
+                    <a href="alert.html">Alert</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="">Avatar</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="">Badge</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="">Button</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="">Card</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="">Image</a>
+                </li>
+                <li class="sidebar-items">
+                    <a href="">Input</a>
+                </li>
+            </ul>
+        </aside>
+        <main class="main-section flex-column">
+            <section>
+                <h1 class="headings main-heading font-weight-4">Alerts</h1>
+                <p class="heading-about font-weight-3"> 
+                    Alerts are used to attract user's attention for important information without interrupting the user's flow.
+                </p>
+            </section>
+            <section class="component-section flex-column">
+                <div>
+                    <h2 class="heading sub-heading font-weight-4"> Example of Alert Bar</h2>
+                    <p class="component-info">
+                        Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.
+                        To use this alert just use class name alert-box and also add class according to alert type- 
+                        <span class="component-type">alert-primary</span>, <span class="component-type">alert-secondary</span>, <span class="component-type">alert-danger</span>, <span class="component-type">alert-success</span>, <span class="component-type">alert-warning</span>. (e.g.<span class="component-type">class="alert-box alert-primary"</span>).
+                        You can copy html part from below code snippet.
+                    </p>
+                </div>
+
+                <div class="component-display-box font-weight-5">
+                    <div class="alert-box alert-primary">
+                        A primary alert example!!!
+                    </div>
+                    <div class="alert-box alert-secondary">
+                        A secondary alert example!!!
+                    </div>
+                    <div class="alert-box alert-danger">
+                        <span class="m-right-1">
+                            <i class="fas fa-skull-crossbones"></i>
+                        </span>
+                        A danger alert example!!!
+                    </div>
+                    <div class="alert-box alert-success">
+                        <span class="m-right-1">
+                            <i class="fas fa-check-circle"></i>
+                        </span>
+                        A success alert example!!!
+                    </div>
+                    <div class="alert-box alert-warning">
+                        <span class="m-right-1">
+                            <i class="fas fa-exclamation-circle"></i>
+                        </span>
+                        A warning alert example!!!
+                    </div>
+                </div>
+               <iframe src="https://carbon.now.sh/embed/Hd6m48oubU1RrBlRzNqm" style="width: 100%; height: 400px; border:0; transform: scale(1); overflow:auto;"sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
