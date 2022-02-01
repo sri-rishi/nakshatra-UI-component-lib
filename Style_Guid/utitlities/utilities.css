@@ -44,6 +44,15 @@
     font-weight: 300;
 }
 
+.btn-border-none {
+    border: none;
+    outline: none;
+}
+
+.bg-transparent {
+    background: transparent;
+}
+
 .docs-grid-template {
     display: grid;
     width: 100%;
