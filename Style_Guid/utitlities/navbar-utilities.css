@@ -33,6 +33,7 @@
 
     .aside-bar {
         display: none;
+        height: 0;
     } 
 
     .hamburger {
@@ -43,12 +44,13 @@
     }
 
     .aside-shown {
-        position: fixed;
+        position: absolute;
         z-index: 1;
         width: 50%;
         height: 100%;
         top: 0;
         left: 0;
+        transition: width 4s ease-out;
     }
 
     .aside-nav-items {
