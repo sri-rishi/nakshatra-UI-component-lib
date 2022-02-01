@@ -1,9 +1,9 @@
-const asideDrawer = document.getElementById("aside-drawer");
-const closeDrawerBtn = document.getElementById("drawer-close-icon");
-const hamburgerBtn = document.getElementById("hamburger-btn");
+const asideDrawer = document.querySelector("#aside-drawer");
+const closeDrawerBtn = document.querySelector("#drawer-close-icon");
+const hamburgerBtn = document.querySelector("#hamburger-btn");
 
 hamburgerBtn.addEventListener(() => {
-    asideDrawer.classList.toggle("aside-shown");
+    asideDrawer.classList.add("aside-shown");
 })
 
 closeDrawerBtn.addEventListener(() => {
