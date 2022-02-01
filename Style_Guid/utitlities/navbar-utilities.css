@@ -44,13 +44,15 @@
     }
 
     .aside-shown {
-        position: absolute;
+        display:block;
         z-index: 1;
-        width: 400px;
+        width: 50%;
         height: 100%;
         top: 0;
         left: 0;
         transition: width 4s ease-out;
+        position: fixed;
+        overflow-x: hidden;
     }
 
     .aside-nav-items {
