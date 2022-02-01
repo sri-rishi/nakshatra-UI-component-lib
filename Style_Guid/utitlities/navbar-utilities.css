@@ -33,7 +33,7 @@
 
     .aside-bar {
         display: none;
-        height: 0;
+        width: 0;
     } 
 
     .hamburger {
@@ -46,7 +46,7 @@
     .aside-shown {
         position: absolute;
         z-index: 1;
-        width: 50%;
+        width: 400px;
         height: 100%;
         top: 0;
         left: 0;
