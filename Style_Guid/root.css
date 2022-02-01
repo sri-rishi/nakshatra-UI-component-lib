@@ -14,6 +14,15 @@
     --hover-text-color: rgb(49, 48, 48);
     --hover-background-color: rgba(44, 167, 224, 0.315);
     --shadow-color: rgb(161, 148, 148);
+    --alert-danger-color: #dc3545;
+    --alert-danger-bg-color: #fcc5c5;
+    --alert-primary-color: #29438b;
+    --alert-primary-bg-color: #7FD2E6;
+    --alert-secondary-bg-color: #eaeaec;
+    --alert-success-color: #1b7052;
+    --alert-success-bg-color: #84f1c9;
+    --alert-warning-color: #ff9204;
+    --alert-warning-bg-color: #ffe7c5;
 }
 
 a {
