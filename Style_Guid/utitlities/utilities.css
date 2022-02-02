@@ -63,3 +63,9 @@
     grid-template-rows: 5rem 1fr;
     grid-template-columns: 18rem 1fr;
 }
+
+.component-display-box {
+    border: 1px solid var(--shadow-color);
+    border-radius: 4px;
+    padding: 2rem;
+}
