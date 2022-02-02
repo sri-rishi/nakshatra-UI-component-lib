@@ -3,7 +3,6 @@
     font-size: 1.2rem;
     gap: 1rem;
     padding: 3rem 0 0 4rem;
-    background-color: var(--white-color);
 }
 
 .sidebar-label {
@@ -55,6 +54,7 @@
         transition: width 4s ease-out;
         position: fixed;
         overflow-x: hidden;
+        background-color: var(--white-color);
     }
 
     .aside-nav-items {
