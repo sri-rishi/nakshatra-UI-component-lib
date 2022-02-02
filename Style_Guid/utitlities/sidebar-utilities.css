@@ -51,7 +51,6 @@
         height: 100%;
         top: 0;
         left: 0;
-        font-size: 1.6rem;
         transition: width 4s ease-out;
         position: fixed;
         overflow-x: hidden;
