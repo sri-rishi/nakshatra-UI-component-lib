@@ -5,7 +5,7 @@
     padding: 3rem 0 0 4rem;
 }
 
-.sidebar-label {
+.sidebar-lable {
     font-size: 1.3rem;
     color: var(--secondary-color);
 }
@@ -78,5 +78,9 @@
     .aside-shown {
         width: 100%;
         font-size: 1.5rem;
+    }
+
+    .sidebar-lable {
+        font-size: 1.7rem;
     }
 }
