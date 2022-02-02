@@ -19,6 +19,10 @@
     width: 12rem;
 }
 
+.nav-items:hover {
+    color: var(--primary-color);
+}
+
 @media screen and (max-width: 864px) {
     .nav-items-box {
         display: none;
@@ -66,5 +70,11 @@
         right: 10px;
         font-size: 27px;
         color: var(--primary-color);
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .aside-shown {
+        width: 100%;
     }
 }
