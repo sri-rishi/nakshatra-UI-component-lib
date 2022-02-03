@@ -34,3 +34,17 @@
     background: var(--lighter-yellow-color);
     color: var(--darker-yellow-color);
 }
+
+.alert-close-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-close {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--dark-gray-color);
+    font-size: 1rem;
+}
