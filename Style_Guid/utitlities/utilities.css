@@ -24,6 +24,10 @@
     display: none;
 }
 
+.position-fixed {
+    position: fixed;
+}
+
 .position-sticky {
     position: sticky;
 }

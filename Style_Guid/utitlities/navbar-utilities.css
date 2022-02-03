@@ -2,6 +2,7 @@
     grid-area: navbar;
     box-shadow: 3px 3px 4px var(--light-gray-color);
     padding: 10px 20px;
+    top: 0;
     font-size: 1.3rem; 
 }
 
