@@ -11,26 +11,26 @@
 }
 
 .alert-primary {
-    background: var(--alert-primary-bg-color);
-    color: var(--alert-primary-color);
+    background: var(--lighter-primary-bg-color);
+    color: var(--lighter-primary-color);
 }
 
 .alert-secondary {
-    background: var(--alert-secondary-bg-color);
-    color: var(--shadow-color);
+    background: var(--lighter-secondary-color);
+    color: var(--light-gray-color);
 }
 
 .alert-success {
-    background: var(--alert-success-bg-color);
-    color: var(--alert-success-color);
+    background: var(--lighter-green-color);
+    color: var(--dark-green-color);
 }
 
 .alert-danger {
-    background: var(--alert-danger-bg-color);
-    color: var(--alert-danger-color);
+    background: var(--light-red-color);
+    color: var(--dak-red-color);
 }
 
 .alert-warning {
     background: var(--alert-warning-bg-color);
-    color: var(--alert-warning-color);
+    color: var(--darker-yellow-color);
 }

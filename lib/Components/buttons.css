@@ -12,27 +12,27 @@
 }
 
 .btn-primary:hover {
-    background: rgb(17, 153, 216);
+    background: var(--light-primary-color);
 }
 
 .btn-secondary {
-    background: var(--shadow-color);
+    background: var(--light-gray-color);
 }
 
 .btn-secondary:hover {
-    background: rgb(126, 119, 119);
+    background: var(--light-secondary-color);
 }
 
 .btn-danger {
-    background: var(--alert-danger-color);
+    background: var(--dark-red-color);
 }
 
 .btn-danger:hover {
-    background: rgb(231, 33, 52);
+    background: var(--red-color);
 }
 
 .btn-success {
-    background: #28a745;
+    background: var(--green-color);
 }
 
 .btn-success:hover {
@@ -40,20 +40,20 @@
 }
 
 .btn-warning {
-    background: #ffc107;
-    color: var(--hover-text-color);
+    background: var(--yellow-color);
+    color: var(--dark-gray-color);
 }
 
 .btn-warning:hover {
-    background: #e6ad05;
+    background: var(--dark-yellow-color);
 }
 
 .btn-dark {
-    background: rgb(61, 58, 58);
+    background: var(--gray-color);
 }
 
 .btn-dark:hover {
-    background: rgb(27, 26, 26);
+    background: var(--darker-gray-color);
 }
 
 .btn-link {
@@ -78,55 +78,55 @@
 
 .btn-outline-secondary {
     background: transparent;
-    border: 1px solid var(--shadow-color);
-    color: var(--shadow-color);
+    border: 1px solid var(--light-gray-color);
+    color: var(--light-gray-color);
 }
 
 .btn-outline-secondary:hover {
-    background: var(--shadow-color);
+    background: var(--light-gray-color);
     color: var(--white-color);
 }
 
 .btn-outline-danger {
     background: transparent;
-    border: 1px solid var(--alert-danger-color);
-    color: var(--alert-danger-color);
+    border: 1px solid var(--dark-red-color);
+    color: var(--dark-red-color);
 }
 
 .btn-outline-danger:hover {
-    background: var(--alert-danger-color);
+    background: var(--dark-red-color);
     color: var(--white-color);
 }
 
 .btn-outline-success {
     background: transparent;
-    border: 1px solid #28a745;
-    color: #28a745;
+    border: 1px solid var(--green-color);
+    color: var(--green-color);
 }
 
 .btn-outline-success:hover {
-    background: #28a745;
+    background: var(--green-color);
     color: var(--white-color);
 }
 
 .btn-outline-warning {
     background: transparent;
-    border: 1px solid #ffc107;
-    color: #ffc107;
+    border: 1px solid var(--yellow-color);
+    color: var(--yellow-color);
 }
 
 .btn-outline-warning:hover {
-    background: #ffc107;
-    color: var(--hover-text-color);
+    background: var(--yellow-color);
+    color: var(--dark-gray-color);
 }
 
 .btn-outline-dark {
     background: transparent;
-    border: 1px solid rgb(61, 58, 58);
-    color: rgb(61, 58, 58);
+    border: 1px solid var(--gray-color);
+    color: var(--gray-color);
 }
 
 .btn-outline-dark:hover {
-    background: rgb(61, 58, 58);
+    background: var(--gray-color);
     color: var(--white-color);
 }
