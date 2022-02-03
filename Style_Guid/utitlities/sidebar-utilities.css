@@ -17,7 +17,7 @@
 }
 
 .sidebar-items:hover {
-    color: var(--hover-text-color);
+    color: var(--dark-gray-color);
     background: var(--hover-background-color);
 }
 
