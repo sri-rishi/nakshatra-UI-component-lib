@@ -65,7 +65,7 @@
 }
 
 .component-display-box {
-    border: 1px solid var(--shadow-color);
+    border: 1px solid var(--light-gray-color);
     border-radius: 4px;
     padding: 2rem;
 }
