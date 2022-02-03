@@ -5,7 +5,8 @@
     padding: 10px 20px;
     top: 0;
     background: var(--white-color);
-    font-size: 1.3rem; 
+    font-size: 1.3rem;
+    z-index: 1; 
 }
 
 .title {
