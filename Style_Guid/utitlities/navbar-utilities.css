@@ -1,5 +1,6 @@
 .navbar {
     grid-area: navbar;
+    width: 100%;
     box-shadow: 3px 3px 4px var(--light-gray-color);
     padding: 10px 20px;
     top: 0;
