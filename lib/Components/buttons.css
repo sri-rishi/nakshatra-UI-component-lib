@@ -36,7 +36,7 @@
 }
 
 .btn-success:hover {
-    background: #208638;
+    background: var(--light-green-color);
 }
 
 .btn-warning {
