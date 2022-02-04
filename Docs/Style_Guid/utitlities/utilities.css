@@ -20,6 +20,10 @@
     justify-content: space-evenly;
 } 
 
+.gap-1 {
+    gap: 1rem;
+}
+
 .display-none {
     display: none;
 }
