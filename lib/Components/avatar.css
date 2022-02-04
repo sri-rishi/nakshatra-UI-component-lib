@@ -2,16 +2,6 @@
     border-radius: 50%;
 }
 
-.img-responsive {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.img-round {
-    border-radius: 50%;
-}
-
 .avatar-lg-size {
     width: 12rem;
     height: 12rem;
