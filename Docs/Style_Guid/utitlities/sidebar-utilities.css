@@ -5,6 +5,7 @@
     left: 0;
     gap: 1rem;
     padding: 3rem 0 0 4rem;
+    border-right: 2px solid var(--light-gray-color);
 }
 
 .sidebar-lable {
