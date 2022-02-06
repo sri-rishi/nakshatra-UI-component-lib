@@ -31,3 +31,9 @@
 .component-type {
     color: var(--primary-color);
 }
+
+@media screen and (max-width: 540px) {
+    .main-section {
+        padding: 2rem;
+    }
+}
