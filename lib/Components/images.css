@@ -7,3 +7,8 @@
 .img-round {
     border-radius: 50%;
 }
+
+.img-box {
+    width: 20rem;
+    height: 20rem;
+}
