@@ -50,32 +50,54 @@
                     <a href="">Card</a>
                 </li>
                 <li class="sidebar-items">
-                    <a href="">Image</a>
+                    <a href="./image.html">Image</a>
                 </li>
                 <li class="sidebar-items">
-                    <a href="">Input</a>
+                    <a href="./inputs.html">Input</a>
                 </li>
             </ul>
         </aside>
         <main class="main-section flex-column">
             <section>
-                <h1 class="headings main-heading font-weight-4"></h1>
+                <h1 class="headings main-heading font-weight-4">Inputs</h1>
                 <p class="heading-about font-weight-3"> 
-                    
+                    Inputs are used for taking some important information from the user so that we can use that information for user benefit.
                 </p>
             </section>
             <section class="component-section flex-column">
                 <div>
-                    <h2 class="heading sub-heading font-weight-4"> </h2>
+                    <h2 class="heading sub-heading font-weight-4">Example of Standard Input </h2>
                     <p class="component-info">
-                        
+                        For using inputs you can use the following html, and the placeholder would go up when you type something.
                     </p>
                 </div>
 
                 <div class="component-display-box font-weight-5 flex-column align-center">
                     <div class="input-box">
-                        <label for="fname">Full Name:</label>
-                        <input class="input std-input" id="fname" type="text" name="fname" placeholder="Full Name"/>
+                        <label class="std-input-label" for="input-std">Standard Input:</label>
+                        <input class="input std-input" id="input-std" type="text" name="input-std" placeholder="Standard Input"/>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 class="heading sub-heading font-weight-4">Example of Inputs with Validation</h2>
+                    <p class="component-info">
+                        We have three types of validation input boxes- <span class="component-type">error</span>, <span class="component-type">success</span>, <span class="component-type">warn</span>.
+                    </p>
+                </div>
+
+                <div class="component-display-box font-weight-5 flex-column align-center gap-2">
+                    <div class="input-box">
+                        <label class="err-input-label" for="input-err">Error Input:</label>
+                        <input class="input err-input" id="input-err" type="text" name="input-err" placeholder="Error Input"/>
+                    </div>
+                    <div class="input-box">
+                        <label class="success-input-label" for="input-success">Success Input:</label>
+                        <input class="input success-input" id="input-success" type="text" name="input-success" placeholder="Success Input"/>
+                    </div>
+                    <div class="input-box">
+                        <label class="warn-input-label" for="input-warn">Warning Input:</label>
+                        <input class="input warn-input" id="input-warn" type="text" name="input-warn" placeholder="Warning Input"/>
                     </div>
                 </div>
             </section>
