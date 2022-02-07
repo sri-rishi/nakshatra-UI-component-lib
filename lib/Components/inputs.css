@@ -1,0 +1,16 @@
+.input-box {
+    width: 60%;
+    font-size: 1.2rem;
+    color: var(--gray-color);
+}
+
+.input {
+    width: 100%;
+    border-radius: 4px;
+    font-size: inherit;
+    padding: 8px 16px;
+}
+
+.std-input {
+    border: 2px solid var(--light-gray-color);
+}
