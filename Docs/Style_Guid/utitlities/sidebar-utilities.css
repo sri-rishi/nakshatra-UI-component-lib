@@ -3,9 +3,10 @@
     font-size: 1.2rem;
     top: 4.72rem;
     left: 0;
+    /* bottom: 0; */
     gap: 1rem;
     padding: 3rem 0 0 4rem;
-    overflow: auto;
+    overflow-y: scroll;
 }
 
 .sidebar-lable {
