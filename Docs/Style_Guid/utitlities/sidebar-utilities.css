@@ -5,6 +5,7 @@
     left: 0;
     gap: 1rem;
     padding: 3rem 0 0 4rem;
+    overflow: auto;
 }
 
 .sidebar-lable {
