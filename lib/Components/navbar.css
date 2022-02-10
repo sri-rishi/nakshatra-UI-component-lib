@@ -37,16 +37,17 @@
 }
 
 .search-div {
-    background: var(--light-gray-color);
+    background: var(--lighter-secondary-color);
     border-radius: 4px;
     padding: 5px 8px;
 }
 
 .nav-search-btn {
     font-size: inherit;
+    color: var(--light-gray-color);
 }
 .input-search {
-    font-size: 1.2rem;
+    font-size: inherit;
 }
 
 @media screen and (max-width: 1118px) {
