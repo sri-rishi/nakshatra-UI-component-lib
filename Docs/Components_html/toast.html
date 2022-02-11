@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="../../index.css">
-    <title>Navigation</title>
+    <title>Toast</title>
 </head>
 <body>
     <div class="docs-grid-template">
@@ -73,23 +73,37 @@
         </aside>
         <main class="main-section flex-column">
             <section>
-                <h1 class="headings main-heading font-weight-4"></h1>
+                <h1 class="headings main-heading font-weight-4">Toast</h1>
                 <p class="heading-about font-weight-3"> 
-    
+                    Toasts are used to show pop up messages to the user. 
                 </p>
             </section>
             <section class="component-section flex-column">
                 <div>
-                    <h2 class="heading sub-heading font-weight-5"> </h2>
+                    <h2 class="heading sub-heading font-weight-5">
+                        Example of Toasts
+                    </h2>
                     <p class="component-info">
-                        
+                        We have 3 types of toasts, success toast, warning toast, error toast. For using these toast use classes <span class="component-type">toast toast-success</span>. For positioning of the toast we have 3 classes <span class="component-type">bottom-center</span> which would position toast in center, <span class="component-type">bottom-left</span> which would position toast in left, <span class="component-type">bottom-right</span>  which would position toast in right.
                     </p>
                 </div>
 
-                <div class="component-display-box font-weight-5">
+                <div class="component-display-box font-weight-5 flex-column gap-1">
                     <div class="toast success-toast">
                         <span>Success Toast Example</span>
-                        <button class="btn-border-none bg-transparent">
+                        <button class="btn-toast btn-border-none bg-transparent">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div class="toast err-toast">
+                        <span>Error Toast Example</span>
+                        <button class="btn-toast btn-border-none bg-transparent">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div class="toast warn-toast">
+                        <span>Warning Toast Example</span>
+                        <button class="btn-toast btn-border-none bg-transparent">
                             <i class="fas fa-times"></i>
                         </button>
                     </div>
