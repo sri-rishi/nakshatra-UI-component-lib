@@ -4,7 +4,7 @@
     height: max-content;
     background: var(--white-color);
     box-shadow: 0 0 4px 2px var(--light-gray-color);
-    padding: 14px 20px 20px 0;
+    padding: 14px 20px;
     border-radius: 4px;
     gap: 1rem;
     color: var(--secondary-color)
@@ -16,13 +16,12 @@
 
 .img-container {
     width: 9rem;
-    padding: 5px 0 5px 15px;
 }
 
 .card-badge {
     position: absolute;
     top: 10px;
-    left: 0px;
+    left: 0;
 }
 
 .text-container {
@@ -45,10 +44,6 @@
 .card-cta-section {
     display: flex;
     gap: 1rem;
-}
-
-.img-full {
-    padding: 0 0 7px 0;
 }
 
 .card-full-img {
