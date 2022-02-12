@@ -1,5 +1,6 @@
 .card  {
     width: max-content;
+    max-width: 50rem;
     display: grid;
     height: max-content;
     background: var(--white-color);
@@ -43,7 +44,8 @@
 
 .card-desc {
     font-size: 1.1rem;
-    color: var(--normal-text-color)
+    color: var(--normal-text-color);
+    overflow-wrap: break-word;
 }
 
 .card-cta-section {
