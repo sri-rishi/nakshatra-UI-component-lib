@@ -7,6 +7,8 @@
     gap: 1rem;
     padding: 3rem 3rem 2rem;
     overflow: auto;
+    background-color: var(--white-color);
+    box-shadow: 0 0 4px 2px var(--light-gray-color);
 }
 
 .sidebar::-webkit-scrollbar {
@@ -56,7 +58,7 @@
         display:flex;
         align-items: center;
         padding: 3rem 0 0 0;
-        z-index: 1;
+        z-index: 99999;
         width: 50%;
         height: 100%;
         top: 0;
@@ -64,7 +66,6 @@
         transition: width 4s ease-out;
         position: fixed;
         overflow-x: hidden;
-        background-color: var(--white-color);
     }
 
     .aside-nav-items {
