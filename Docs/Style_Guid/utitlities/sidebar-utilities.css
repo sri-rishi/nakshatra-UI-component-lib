@@ -9,6 +9,10 @@
     overflow: auto;
 }
 
+.sidebar::-webkit-scrollbar {
+    width: 0;
+}
+
 .sidebar-lable {
     font-size: 1.3rem;
     color: var(--secondary-color);
