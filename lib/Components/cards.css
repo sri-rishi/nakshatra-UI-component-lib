@@ -1,6 +1,6 @@
 .card  {
-    width: max-content;
     max-width: 50rem;
+    width: 100%;
     display: grid;
     height: max-content;
     background: var(--white-color);
