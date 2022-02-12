@@ -124,3 +124,14 @@
     top: 0px;
     border-radius: 4px;
 } 
+
+.overlay-text-box {
+    font-size: 2rem;
+    color: var(--gray-color);
+    padding: 10px 1rem;
+    border-radius: inherit;
+}
+
+.card-vl-text {
+    max-width: 30rem;
+}
