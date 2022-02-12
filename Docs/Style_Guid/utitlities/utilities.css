@@ -96,6 +96,5 @@
 
 .code-section {
     width: 100%;
-    height: 300px;
-    background: var(--lightest-gray-color);
+    height: 48vh;
 }
