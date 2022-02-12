@@ -23,6 +23,10 @@
     gap: inherit;
 }
 
+.component-display-box {
+    object-fit: contain;
+}
+
 .component-info {
     font-size: 1.2rem;
     color: var(--normal-text-color);
