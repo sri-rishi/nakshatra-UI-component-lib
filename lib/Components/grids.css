@@ -1,0 +1,32 @@
+.grid {
+    display: grid;
+    height: 100%;
+    gap: 1rem;
+    width: 100%;
+    height: 20rem;
+    color: var(--white-color);
+}
+
+.grid-equal {
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-items {
+    display: grid;
+    background: var(--primary-color);
+    align-items: center;
+    justify-content: center;
+}
+
+
+.grid-30-70-layout {
+    grid-template-columns: 1fr 3fr;
+}
+
+.grid-70-30-layout {
+    grid-template-columns: 3fr 1fr;
+}
+
+.grid-3-column {
+    grid-template-columns: 1fr 1fr 1fr;
+}
