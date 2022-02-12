@@ -96,5 +96,6 @@
 
 .code-section {
     width: 100%;
-    height: 35rem;
+    height: 16rem;
+    margin: 1rem auto;
 }
