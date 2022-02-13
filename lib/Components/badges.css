@@ -81,8 +81,17 @@
     background: var(--dark-red-color);
 }
 
-.number-badge {
-    width: max-content;
+.number-lg-badge {
+    width: 1.7rem;
+    height: 1.7rem;
+    top: -15px;
+    right: -15px;
+}
+
+.number-sm-badge {
+    width: 1.3rem;
+    height: 1.3rem;
+    font-size: 12px;
     top: -15px;
     right: -15px;
 }
