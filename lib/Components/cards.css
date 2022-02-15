@@ -92,7 +92,7 @@
 
 .card-like-btn {
     position: absolute;
-    top: 5px;
+    top: 0px;
     right: 10px;
     font-size: 1.2rem;
     color: var(--gray-color);
