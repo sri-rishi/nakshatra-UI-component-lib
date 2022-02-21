@@ -14,7 +14,6 @@ nakshatraUI is a library which will help you create your UI faster. This library
 
 - All the nakshatraUI components are responsive, so you don't have worry about responsiveness
 - Classes can be used by combining with other classes
-- OCSS model is used in making components
 
 <hr/>
 
