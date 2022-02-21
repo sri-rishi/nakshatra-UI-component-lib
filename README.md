@@ -6,7 +6,7 @@ nakshatraUI is a library which will help you create your UI faster. This library
 
 ## Gify
 
-## ![neatUI GIF](https://github.com/sri-rishi/nakshatra-ui-component-lib/blob/dev/Docs/assets/images/nakshatra-UI.gif)
+## ![neatUI GIF](https://github.com/sri-rishi/nakshatra-ui-component-lib/blob/dev/Docs/assets/images/screen-capture.gif)
 
 <hr />
 
