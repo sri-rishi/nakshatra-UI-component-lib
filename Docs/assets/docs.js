@@ -4,7 +4,6 @@ const hamburgerBtn = document.querySelector("#hamburger-btn");
 
 hamburgerBtn.addEventListener("click",() => {
     asideDrawer.classList.add("aside-shown");
-    console.log("thi si snot working");
 })
 
 closeDrawerBtn.addEventListener("click", () => {
